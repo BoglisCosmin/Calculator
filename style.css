@@ -1,0 +1,71 @@
+.grid-container {
+    margin:0 auto;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    max-width:400px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 75px auto auto auto auto;
+    background-color:  rgb(255, 255, 255);
+    gap:15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  
+  .grid-container > div {
+    background-color: rgb(247, 244, 244);
+    text-align: center;
+    
+    font-size: 30px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+  
+    
+  }
+  
+  .itemEcran  {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+#ecran1{
+  font-size:20px;
+}
+
+#ecran2{
+  font-size:35px;
+}
+
+
+.itemEcran > p{
+    padding:0;
+   margin:0;
+  }
+
+  .itemSageata{
+    grid-column: 3/-1;
+  }
+
+  .grid-container > div:not(:first-of-type):hover{
+    background-color: rgb(207, 205, 205);
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+ #sageata{background-color: rgb(54, 240, 240);}
+ #semna{ background-color: rgb(54, 240, 153);}
+ #semnb{background-color: rgb(54, 240, 153);}
+ #semnc{background-color: rgb(54, 240, 153);}
+ #semnd{background-color: rgb(54, 240, 153);}
+
+ #sageata:hover{
+  background-color: rgb(29, 226, 226);
+ }
+ #semna:hover{ background-color: rgb(12, 218, 122);}
+ #semnb:hover{background-color: rgb(12, 218, 122);}
+ #semnc:hover{background-color: rgb(12, 218, 122);}
+ #semnd:hover{background-color: rgb(12, 218, 122);}
+
+ #stergeCE{  background-color: rgb(207, 205, 205);}
+ #itemC{ background-color: rgb(207, 205, 205);}

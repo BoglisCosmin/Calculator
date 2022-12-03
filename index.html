@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container  mt-3">
+    <div class="grid-container  ">
+        <div class="itemEcran">
+           
+            <p id="ecran1">&nbsp;</p>
+            <p id="ecran2">0</p>
+
+        </div>
+        <div id="stergeCE" onclick="stergereCE()" class="itemCE">CE</div>
+        <div id="itemC" onclick="clearAll()" class="itemC">C</div>
+        <div id="sageata" onclick="deleteOne()" class="itemSageata">&#x2190;</div>
+        <div onclick="number(this.textContent)" class="item7">7</div>
+        <div onclick="number(this.textContent)" class="item8">8</div>
+        <div onclick="number(this.textContent)" class="item9">9</div>  
+        <div id="semna" onclick="semn(this.textContent)" class="item/ semna" >/</div> 
+        <div onclick="number(this.textContent)" class="item4">4</div>
+        <div onclick="number(this.textContent)" class="item5">5</div>
+        <div onclick="number(this.textContent)" class="item6">6</div>
+        <div id="semnb" onclick="semn(this.textContent)" class="itemx">x</div>
+        <div onclick="number(this.textContent)" class="item1">1</div>  
+        <div onclick="number(this.textContent)" class="item2">2</div>  
+        <div onclick="number(this.textContent)" class="item3 ">3</div> 
+        <div id="semnc" onclick="semn(this.textContent)" class="item- semna">-</div>
+        <div onclick="punct(this.textContent)" class="item.">.</div>  
+        <div onclick="number(this.textContent)" class="item0">0</div>  
+        <div onclick="equal()" class="item=">=</div>  
+        <div id="semnd" onclick="semn(this.textContent)" class="item+ semna">+</div>  
+    </div>
+    </div>  
+</body>
+</html>
